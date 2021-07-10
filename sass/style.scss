@@ -8,5 +8,11 @@
     padding: 0 10px;
 }
 
+@media (max-width: 767px){
+    body.lock{
+        overflow: hidden;
+    }
+}
+
 @import 'blocks/content';
 @import 'blocks/header';
