@@ -1,0 +1,10 @@
+.content {
+    margin-top: 100px;
+	&__text {
+        font-size: 18px;
+        line-height: 25px;
+        p{
+            margin-bottom: 20px;
+        }
+     }
+}
