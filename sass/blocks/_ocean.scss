@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     &::before{
         content:'';
         position: absolute;
@@ -32,14 +33,20 @@
         z-index: 10;
     }
     &__title{
+
+        top: 280px;
+        right: -700px;
         position: absolute;
         color:white;
         white-space: nowrap;
         font-weight: 600;
         font-size: 7vw;
         z-index: 9;
+        
     }
     &__btn{
+        position: absolute;
+        top:380px;
         text-decoration: none;
         border: none;
         display: inline-block;
