@@ -29,6 +29,28 @@
     #parts{
         mix-blend-mode: screen;
     }
+
+    
+    #parts_animated{
+        mix-blend-mode: screen;
+
+        animation-name: parts;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+    }
+
+    @keyframes parts {
+        0%{
+            left: -10px;
+        }
+        100%{
+            left: 300px;
+        }
+    }
+
+
     #oceanLeft, #oceanRight{
         z-index: 10;
     }
