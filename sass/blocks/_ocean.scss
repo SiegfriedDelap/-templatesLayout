@@ -61,12 +61,13 @@
         position: absolute;
         color:white;
         white-space: nowrap;
-        font-weight: 600;
         font-size: 7vw;
         z-index: 9;
+        font-weight: 700;
         
     }
     &__btn{
+        font-weight: 500;
         position: absolute;
         top:380px;
         text-decoration: none;

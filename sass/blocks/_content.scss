@@ -3,12 +3,14 @@
     padding: 50px;
     background-color: #0f1b33;
     &__title{
+        font-weight: 600;
         font-size: 3.5em;
         margin-bottom: 30px;
         color:white;
 
     }
     &__text{
+        font-weight: 500;
         font-size: 1.2em;
         color:white;
     }
