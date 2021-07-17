@@ -1,10 +1,15 @@
 *{
     font-family: Verdana;
+    box-sizing: border-box;
 }
 
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
-    padding: 0 10px;
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    background: linear-gradient(rgb(4, 13, 90), rgb(42, 120, 236));
 }
 
+
+@import 'blocks/header';
+@import 'blocks/ocean';
+@import 'blocks/content';

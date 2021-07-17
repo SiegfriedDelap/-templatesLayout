@@ -1,0 +1,58 @@
+.ocean{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before{
+        content:'';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(to top,#0f1b33, transparent);
+        z-index: 15;
+
+    }
+    img{
+        pointer-events: none;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #parts{
+        mix-blend-mode: screen;
+    }
+    #oceanLeft, #oceanRight{
+        z-index: 10;
+    }
+    &__title{
+        position: absolute;
+        color:white;
+        white-space: nowrap;
+        font-weight: 600;
+        font-size: 7vw;
+        z-index: 9;
+    }
+    &__btn{
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+        padding: 8px 30px;
+        border-radius: 40px;
+        background:white;
+        color: rgb(88, 88, 226);
+        font-size: 1.5em;
+        z-index: 9;
+        transform: translateY(110px);
+        &:hover{
+            background: rgb(171, 228, 238);
+            color: rgb(88, 88, 226);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.content{
+    position: relative;
+    padding: 100px;
+    background-color: #0f1b33;
+    &__title{
+        font-size: 3.5em;
+        margin-bottom: 30px;
+        color:white;
+
+    }
+    &__text{
+        font-size: 1.2em;
+        color:white;
+    }
+}
